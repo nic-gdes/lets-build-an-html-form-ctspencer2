@@ -18,3 +18,39 @@ header, main, footer {
 header, footer {
     text-align: center;
 }
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #mail {
+    width: 50%;
+}
+
+#msg {
+    width: 75%;
+    height: 200px;
+}
+
+.top-head, legend {
+    font-weight: bold;
+    margin-bottom: .75rem;
+}
+
+button {
+    background-color: rgb(233, 8, 45);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 3rem;
+}
