@@ -35,15 +35,20 @@
                     <li>
                         <legend for="Band">Favorite Band</legend>
                         <div>
-                            <div>
-                            <input type="radio" name="favorite_band" value="Deftones">
-                            <label for="bandchoice" class="container">Deftones</label>
-                            </div>
-                            
-                            <label for="bandchoice" class="container"><input type="radio" name="favorite_band" value="Acid King">Acid King</label>
+                            <label for="Deftones" class="container">
+                                <input type="radio" name="favorite_band" value="Deftones">
+                                Deftones
+                            </label>
 
-                            <input type="radio" name="favorite_band" value="Nobody Good">
-                            <label for="bandchoice" class="container">Nobody Good</label>                      
+                            <label for="acidking" class="container">
+                                <input id="nobodygood" type="radio" name="favorite_band" value="Acid King">
+                                Acid King
+                            </label>
+                            
+                            <label for="nobodygood" class="container"></label>
+                                <input type="radio" id="nobodygood" name="favorite_band" value="Nobody Good">
+                                Nobody Good
+                            </label>                      
                         </div>
                     </li>
                     <button type="submit" id="submit-btn">Submit</button>
